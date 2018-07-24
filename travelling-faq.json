@@ -1,0 +1,188 @@
+{
+  "id": "72452cf9-fdf3-40aa-8645-5e879cc5a85f",
+  "name": "travelling-faq",
+  "auto": true,
+  "contexts": [
+    "Travelling",
+    "Cost",
+    "Guidance",
+    "started"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "talkingaboutthecompany",
+      "affectedContexts": [
+        {
+          "name": "Cost",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Guidance",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "started",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "095e16a7-1248-457f-bb35-c915616ad479",
+          "required": false,
+          "name": "companyfaq",
+          "value": "5",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "TravelGuide is an experience based company. Our vision is to empower people from all over the world to visit the places they've always dreamt of, to form unforgettable memories and experiences with the ones they love. At TravelGuide, this dream is now a reality - we offer cheap prices and incredibly fast connection. One day you're sitting at your computer, the next you're vacationing in Bali. It really is that simple.",
+            "This company is about getting out there, leaving your hometown, and forming new experiences. At TravelGuide, the sky is the limit.",
+            "I'm glad you asked - we offer a variety of services, from travel booking, experiences in the city, and comparison of prices across several platforms. We make travel as easy as possible, because vacationing should be the one time where things are as easy as possible."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Let me get you connected to a customer representative as easy as possible."
+        },
+        {
+          "type": 0,
+          "speech": "Getting started is incredibly easy. First, think about where you want to go. Sweden. Helsinki. Seoul. The sky is your limit. Second, go onto our website and look at all the possible things to do in that area. Plan your trip in about 30 minutes. Then, book your flight. All on our website. All in less than an hour. It really is that simple."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530649452,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SKYPE_WELCOME"
+    },
+    {
+      "name": "SLACK_WELCOME"
+    },
+    {
+      "name": "FACEBOOK_WELCOME"
+    },
+    {
+      "name": "actions_intent_CHECK_AIR_QUALITY"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "3f54c5b5-024a-4929-bfb5-8313262565a5",
+      "data": [
+        {
+          "text": "Can you explain what it is that you do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530649452,
+      "isAuto": false
+    },
+    {
+      "id": "f30c3701-8f15-4901-b219-cff5dec5c474",
+      "data": [
+        {
+          "text": "Where do I get started?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530649452,
+      "isAuto": false
+    },
+    {
+      "id": "ff099db8-26c5-4e01-ba5f-8d6b505dd647",
+      "data": [
+        {
+          "text": "What is TravelGuide?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530649452,
+      "isAuto": false
+    },
+    {
+      "id": "16e3b2c9-66d7-4294-80ce-ff684837c36c",
+      "data": [
+        {
+          "text": "What is this company about?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530649452,
+      "isAuto": false
+    },
+    {
+      "id": "3bffb7d3-834b-4b3e-a00a-54743f1b8c8a",
+      "data": [
+        {
+          "text": "Can I speak to a customer representative?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530649452,
+      "isAuto": false
+    },
+    {
+      "id": "54785f83-4d84-4f26-b6d8-e8e578940369",
+      "data": [
+        {
+          "text": "How much will this travel cost?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530649452,
+      "isAuto": false
+    },
+    {
+      "id": "a413779c-c6e5-4af2-b63a-a46cfeb98c4b",
+      "data": [
+        {
+          "text": "What services do you offer?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530649452,
+      "isAuto": false
+    },
+    {
+      "id": "c83aa412-6ac6-4844-b19e-368733b01ed1",
+      "data": [
+        {
+          "text": "So, could you tell me a little bit about TravelGuide?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530649452,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
